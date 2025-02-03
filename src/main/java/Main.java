@@ -16,7 +16,8 @@ public class Main {
             System.out.println("Acceso concedido");
         }
 
-        //Uso de operadores
+
+        //Uso de operadores -- test
         balance++;
         String status = (balance < 0) ? "Deuda" : "Crédito"; //OPerador ternario
         System.out.println("Estado de cuenta: " + status);
